@@ -1,0 +1,49 @@
+===============================================
+   DEPLOY PURENSISRX WEBSITE TO GITHUB PAGES
+===============================================
+
+STEP 1: Create GitHub Repository
+---------------------------------
+1. Go to: https://github.com/new
+2. Repository name: purensisrx-website
+3. Description: Official PurensisRX Website
+4. Make it PUBLIC
+5. DON'T check any boxes
+6. Click "Create repository"
+
+
+STEP 2: Run These Commands
+---------------------------
+Copy and paste these commands one at a time:
+
+cd /Users/nicolai.dorka/Desktop/purensis_V0.1/purensisRX-website
+
+git remote add origin https://github.com/wdorka/purensisrx-website.git
+
+git push -u origin main
+
+
+STEP 3: Enable GitHub Pages
+----------------------------
+1. Go to: https://github.com/wdorka/purensisrx-website/settings/pages
+2. Under "Source":
+   - Branch: main
+   - Folder: / (root)
+3. Click "Save"
+4. Wait 2-3 minutes
+
+
+STEP 4: Visit Your Website!
+----------------------------
+Your website will be live at:
+
+https://wdorka.github.io/purensisrx-website/
+
+===============================================
+
+TROUBLESHOOTING:
+- If git push asks for credentials, use a Personal Access Token
+- To create token: https://github.com/settings/tokens
+- Check deployment status: https://github.com/wdorka/purensisrx-website/actions
+
+===============================================

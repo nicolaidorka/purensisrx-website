@@ -1,44 +1,12 @@
 /* Platform Page Styles */
 
-.platform-hero {
+.platform-hero-login {
     background: linear-gradient(135deg, #00cc99 0%, #0066cc 100%);
     color: white;
-    padding: 5rem 0 4rem;
-    text-align: center;
+    padding: 6rem 0;
 }
 
-.platform-hero h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-}
-
-.platform-hero .subtitle {
-    font-size: 1.2rem;
-    color: rgba(255,255,255,0.8);
-    font-style: italic;
-    margin-bottom: 1rem;
-}
-
-.platform-hero p {
-    font-size: 1.2rem;
-    color: rgba(255,255,255,0.95);
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* Platform Features */
-.platform-features {
-    padding: 5rem 0;
-    background: var(--bg-white);
-}
-
-/* Login Section */
-.login-section {
-    padding: 5rem 0;
-    background: var(--bg-light);
-}
-
-.login-container {
+.hero-login-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
@@ -47,53 +15,41 @@
     margin: 0 auto;
 }
 
-.login-info h2 {
-    color: var(--text-dark);
+.hero-info h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-info .subtitle {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.8);
+    font-style: italic;
     margin-bottom: 1rem;
 }
 
-.login-info > p {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    margin-bottom: 2rem;
+.hero-info .description {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.95);
+    line-height: 1.6;
 }
 
-.platform-benefits {
-    list-style: none;
+/* Platform Features */
+.platform-features {
+    padding: 5rem 0;
+    background: var(--bg-white);
 }
 
-.platform-benefits li {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem 0;
-    color: var(--text-dark);
-    font-size: 1.05rem;
-}
-
-.platform-benefits svg {
-    flex-shrink: 0;
-    color: var(--secondary-color);
-}
-
-/* Login Card */
-.login-form-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
+/* Login Card in Hero */
 .login-card {
     background: var(--bg-white);
-    padding: 3rem;
+    padding: 2.5rem;
     border-radius: 16px;
     box-shadow: var(--shadow-lg);
-    width: 100%;
-    max-width: 450px;
 }
 
-.login-card h3 {
+.login-card h2 {
     color: var(--text-dark);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     text-align: center;
     font-size: 1.75rem;
 }
@@ -256,12 +212,12 @@
 
 /* Responsive */
 @media (max-width: 968px) {
-    .login-container {
+    .hero-login-container {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
 
-    .platform-hero h1 {
+    .hero-info h1 {
         font-size: 2.5rem;
     }
 
@@ -271,16 +227,15 @@
 }
 
 @media (max-width: 768px) {
-    .platform-hero {
-        padding: 3rem 0 2rem;
+    .platform-hero-login {
+        padding: 3rem 0;
     }
 
-    .platform-hero h1 {
+    .hero-info h1 {
         font-size: 2rem;
     }
 
     .platform-features,
-    .login-section,
     .platform-demo,
     .contact-section {
         padding: 3rem 0;
