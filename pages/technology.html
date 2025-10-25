@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology - PurensisRX</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/technology.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="../index.html" class="logo">Purensis<span>RX</span></a>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="technology.html" class="active">Technology</a></li>
+                    <li><a href="platform.html" class="btn-primary">Annotation Platform</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Technology Hero -->
+    <section class="tech-hero">
+        <div class="container">
+            <h1>Integrated Precision Technology</h1>
+            <p>PurensisRX combines cutting-edge hardware and AI-powered software into a seamless automated workflow</p>
+        </div>
+    </section>
+
+    <!-- Technology Overview -->
+    <section class="tech-overview">
+        <div class="container">
+            <div class="tech-intro">
+                <h2>Complete System Integration</h2>
+                <p class="lead-text">Our platform unifies multiple advanced technologies to enable precise, automated tissue isolation and analysis. From imaging to collection, every step is optimized for accuracy and reproducibility.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Imaging System -->
+    <section id="imaging" class="tech-section">
+        <div class="container">
+            <div class="tech-content">
+                <div class="tech-text">
+                    <h2>Advanced Imaging System</h2>
+                    <h3>Squid+ Inverted Microscope</h3>
+                    <p>Our dual-camera imaging system provides exceptional image quality with intelligent focus optimization:</p>
+                    <ul class="tech-list">
+                        <li><strong>Multi-tile scanning:</strong> Automated panoramic image acquisition across large tissue areas</li>
+                        <li><strong>Z-stack acquisition:</strong> Multiple focal planes captured for each tile</li>
+                        <li><strong>Intelligent focus selection:</strong> Scharr variance-based algorithm automatically identifies optimal focus plane</li>
+                        <li><strong>Multi-channel support:</strong> Seamless switching between brightfield, fluorescence, and other imaging modalities</li>
+                        <li><strong>High-precision stitching:</strong> Advanced algorithms create seamless panoramic images with coordinate metadata</li>
+                    </ul>
+                    <div class="tech-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Resolution:</span>
+                            <span class="spec-value">Up to 2048×1536 per tile</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Pixel Precision:</span>
+                            <span class="spec-value">Dynamic calculation based on objective (e.g., 0.645 µm @ 10×)</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Scan Area:</span>
+                            <span class="spec-value">Unlimited (tile-based)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-visual">
+                    <div class="placeholder-box">
+                        <svg width="100%" height="300" viewBox="0 0 400 300">
+                            <rect width="400" height="300" fill="#f0f0f0"/>
+                            <circle cx="200" cy="150" r="80" fill="#667eea" opacity="0.3"/>
+                            <circle cx="200" cy="150" r="60" fill="#764ba2" opacity="0.3"/>
+                            <circle cx="200" cy="150" r="40" fill="#0066cc" opacity="0.3"/>
+                            <text x="200" y="155" text-anchor="middle" fill="#666" font-size="14">Imaging System</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Segmentation -->
+    <section id="segmentation" class="tech-section alt-bg">
+        <div class="container">
+            <div class="tech-content reverse">
+                <div class="tech-visual">
+                    <div class="placeholder-box">
+                        <svg width="100%" height="300" viewBox="0 0 400 300">
+                            <rect width="400" height="300" fill="#f8f9fa"/>
+                            <rect x="50" y="50" width="80" height="80" fill="#00cc99" opacity="0.4" rx="5"/>
+                            <rect x="160" y="50" width="80" height="80" fill="#00cc99" opacity="0.6" rx="5"/>
+                            <rect x="270" y="50" width="80" height="80" fill="#00cc99" opacity="0.5" rx="5"/>
+                            <rect x="50" y="160" width="80" height="80" fill="#00cc99" opacity="0.7" rx="5"/>
+                            <rect x="160" y="160" width="80" height="80" fill="#00cc99" opacity="0.5" rx="5"/>
+                            <rect x="270" y="160" width="80" height="80" fill="#00cc99" opacity="0.6" rx="5"/>
+                            <text x="200" y="155" text-anchor="middle" fill="#666" font-size="14">AI Segmentation</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tech-text">
+                    <h2>AI-Powered Segmentation</h2>
+                    <h3>Cellpose Integration & Clustering</h3>
+                    <p>Leverage state-of-the-art deep learning for automated cell and region identification:</p>
+                    <ul class="tech-list">
+                        <li><strong>Cellpose segmentation:</strong> Pre-trained models for various cell types with customizable parameters</li>
+                        <li><strong>Interactive tuning:</strong> Real-time preview of segmentation results with adjustable thresholds</li>
+                        <li><strong>Clustering analysis:</strong> DBSCAN and K-Means algorithms group similar cells or regions</li>
+                        <li><strong>Polygon modification:</strong> Automated dilation, smoothing, and simplification tools</li>
+                        <li><strong>Manual refinement:</strong> Draw, edit, and merge annotations with precision measurement tools</li>
+                    </ul>
+                    <div class="tech-highlight">
+                        <p><strong>Smart Analysis:</strong> Our unified analysis interface combines segmentation, clustering, and polygon modification in one streamlined workflow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laser Microdissection -->
+    <section id="laser" class="tech-section">
+        <div class="container">
+            <div class="tech-content">
+                <div class="tech-text">
+                    <h2>Precision Laser Microdissection</h2>
+                    <h3>Automated Coordinate-Guided Cutting</h3>
+                    <p>Our laser system delivers sub-micrometer precision with intelligent automation:</p>
+                    <ul class="tech-list">
+                        <li><strong>Coordinate transformation:</strong> Automatic conversion from pixel annotations to stage coordinates</li>
+                        <li><strong>Laser offset calibration:</strong> Alignment workflow ensures cutting accuracy</li>
+                        <li><strong>Variable power control:</strong> Adjustable laser power for different tissue types (perimeter: 20%, push: 10%)</li>
+                        <li><strong>Leadscrew positioning:</strong> Optimal Z-axis positioning during initialization</li>
+                        <li><strong>Path optimization:</strong> Efficient cutting patterns minimize tissue damage</li>
+                    </ul>
+                    <div class="tech-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Cutting Speed:</span>
+                            <span class="spec-value">2.0 mm/s (configurable)</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Precision:</span>
+                            <span class="spec-value">Sub-micrometer accuracy</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Power Range:</span>
+                            <span class="spec-value">1-100% (tissue-adaptive)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-visual">
+                    <div class="placeholder-box">
+                        <svg width="100%" height="300" viewBox="0 0 400 300">
+                            <rect width="400" height="300" fill="#f0f0f0"/>
+                            <path d="M 100,150 L 200,50 L 300,150 L 200,250 Z" fill="none" stroke="#ff6b6b" stroke-width="3" stroke-dasharray="5,5"/>
+                            <circle cx="200" cy="50" r="5" fill="#ff6b6b"/>
+                            <line x1="200" y1="0" x2="200" y2="50" stroke="#0066cc" stroke-width="2"/>
+                            <text x="200" y="280" text-anchor="middle" fill="#666" font-size="14">Laser Microdissection</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fluidics System -->
+    <section id="fluidics" class="tech-section alt-bg">
+        <div class="container">
+            <div class="tech-content reverse">
+                <div class="tech-visual">
+                    <div class="placeholder-box">
+                        <svg width="100%" height="300" viewBox="0 0 400 300">
+                            <rect width="400" height="300" fill="#f8f9fa"/>
+                            <rect x="50" y="100" width="100" height="100" fill="#764ba2" opacity="0.3" rx="10"/>
+                            <rect x="250" y="100" width="100" height="100" fill="#667eea" opacity="0.3" rx="10"/>
+                            <path d="M 150,150 Q 200,100 250,150" fill="none" stroke="#0066cc" stroke-width="4" marker-end="url(#arrowhead)"/>
+                            <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                                    <polygon points="0 0, 10 3, 0 6" fill="#0066cc"/>
+                                </marker>
+                            </defs>
+                            <text x="100" y="225" text-anchor="middle" fill="#666" font-size="12">Inlet</text>
+                            <text x="300" y="225" text-anchor="middle" fill="#666" font-size="12">Collection</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tech-text">
+                    <h2>Integrated Fluidics System</h2>
+                    <h3>Automated Tissue Transport & Collection</h3>
+                    <p>Seamless integration of pumps and liquid handling for high-throughput sample processing:</p>
+                    <ul class="tech-list">
+                        <li><strong>Tecan pump coordination:</strong> Synchronized inlet and outlet pumps for smooth tissue transport</li>
+                        <li><strong>Flow cell integration:</strong> Tissue flows through controlled microfluidic environment</li>
+                        <li><strong>Opentrons OT-2 robot:</strong> Automated collection into 96-well plates with well-specific targeting</li>
+                        <li><strong>Priming workflow:</strong> Automated system preparation ensures reliability</li>
+                        <li><strong>Safety features:</strong> Waste positioning and depth optimization prevent sample loss</li>
+                    </ul>
+                    <div class="tech-highlight">
+                        <p><strong>High Throughput:</strong> Process and collect hundreds of tissue regions automatically, with each sample precisely tracked and stored.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Complete Workflow -->
+    <section class="workflow-detail">
+        <div class="container">
+            <h2 class="section-title">Complete Automated Workflow</h2>
+            <div class="workflow-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>Live View & ROI Selection</h3>
+                        <p>Professional live view interface allows users to navigate tissue samples and define regions of interest</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>Automated Scanning</h3>
+                        <p>Multi-tile Z-stack acquisition across entire ROI with multi-channel support</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3>Image Processing</h3>
+                        <p>Best focus selection using Scharr variance, followed by precision stitching with coordinate metadata generation</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3>AI Analysis & Annotation</h3>
+                        <p>Cellpose segmentation, clustering analysis, and manual annotation refinement in unified interface</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">5</div>
+                    <div class="timeline-content">
+                        <h3>Coordinate Export</h3>
+                        <p>Annotations automatically transformed from pixel coordinates to precise stage coordinates (µm)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">6</div>
+                    <div class="timeline-content">
+                        <h3>Laser Alignment</h3>
+                        <p>Calibration workflow measures and compensates for laser-camera offset</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">7</div>
+                    <div class="timeline-content">
+                        <h3>Cut & Retrieve</h3>
+                        <p>Automated laser cutting along annotation paths with synchronized tissue transport</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">8</div>
+                    <div class="timeline-content">
+                        <h3>Well Collection</h3>
+                        <p>Opentrons robot collects isolated tissues into specific wells for downstream analysis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Experience the Platform</h2>
+                <p>Try our annotation and analysis tools to see how PurensisRX can accelerate your research</p>
+                <a href="platform.html" class="btn btn-large">Access Annotation Platform</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Purensis<span>RX</span></h3>
+                    <p>Advancing precision medicine through automated tissue isolation</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Technology</h4>
+                    <ul>
+                        <li><a href="#imaging">Imaging System</a></li>
+                        <li><a href="#segmentation">AI Segmentation</a></li>
+                        <li><a href="#laser">Laser Microdissection</a></li>
+                        <li><a href="#fluidics">Fluidics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="platform.html">Annotation Viewer</a></li>
+                        <li><a href="https://github.com/nicolaidorka">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PurensisRX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
