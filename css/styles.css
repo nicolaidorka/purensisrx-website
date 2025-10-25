@@ -171,6 +171,29 @@ a {
     line-height: 1.2;
 }
 
+.rainbow-text {
+    background: linear-gradient(90deg,
+        #ff0080,  /* Pink */
+        #ff8c00,  /* Orange */
+        #ffd700,  /* Gold */
+        #00ff00,  /* Green */
+        #00bfff,  /* Blue */
+        #8a2be2,  /* Purple */
+        #ff1493   /* Deep Pink */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: rainbow-shift 8s ease infinite;
+    background-size: 200% auto;
+}
+
+@keyframes rainbow-shift {
+    0% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+    100% { background-position: 0% center; }
+}
+
 .hero-subtitle {
     font-size: 1.3rem;
     margin-bottom: 2.5rem;
