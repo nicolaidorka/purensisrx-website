@@ -108,6 +108,10 @@ a {
     color: var(--primary-color);
 }
 
+.nav-menu .btn-primary {
+    color: white !important;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
