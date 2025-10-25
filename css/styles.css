@@ -174,18 +174,21 @@ a {
 .rainbow-text {
     background: linear-gradient(90deg,
         #ff0080,  /* Pink */
-        #ff8c00,  /* Orange */
-        #ffd700,  /* Gold */
-        #00ff00,  /* Green */
-        #00bfff,  /* Blue */
-        #8a2be2,  /* Purple */
-        #ff1493   /* Deep Pink */
+        #ffaa00,  /* Bright Orange */
+        #ffff00,  /* Yellow */
+        #00ff88,  /* Bright Green */
+        #00ddff,  /* Cyan */
+        #aa88ff,  /* Light Purple */
+        #ff0088   /* Bright Pink */
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: rainbow-shift 8s ease infinite;
-    background-size: 200% auto;
+    text-fill-color: transparent;
+    animation: rainbow-shift 6s ease infinite;
+    background-size: 300% auto;
+    display: inline-block;
+    font-weight: 700;
 }
 
 @keyframes rainbow-shift {
