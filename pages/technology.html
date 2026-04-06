@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technology - Purensis</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/technology.css">
+    <link rel="stylesheet" href="../css/styles.css?v=2">
+    <link rel="stylesheet" href="../css/technology.css?v=2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -50,7 +50,7 @@
                 <div class="tech-text">
                     <h2>Advanced Imaging System</h2>
                     <h3>Inverted Microscope System</h3>
-                    <p>Our dual-camera imaging system provides exceptional image quality with intelligent focus optimization:</p>
+                    <p>Our imaging system provides high-quality tile-based acquisition with intelligent focus optimization:</p>
                     <ul class="tech-list">
                         <li><strong>Multi-tile scanning:</strong> Automated panoramic image acquisition across large tissue areas</li>
                         <li><strong>Z-stack acquisition:</strong> Multiple focal planes captured for each tile</li>
@@ -69,18 +69,43 @@
                         </div>
                         <div class="spec-item">
                             <span class="spec-label">Scan Area:</span>
-                            <span class="spec-value">Unlimited (tile-based)</span>
+                            <span class="spec-value">Full slide coverage (tile-based)</span>
                         </div>
                     </div>
                 </div>
                 <div class="tech-visual">
                     <div class="placeholder-box">
                         <svg width="100%" height="300" viewBox="0 0 400 300">
-                            <rect width="400" height="300" fill="#f0f0f0"/>
-                            <circle cx="200" cy="150" r="80" fill="#667eea" opacity="0.3"/>
-                            <circle cx="200" cy="150" r="60" fill="#764ba2" opacity="0.3"/>
-                            <circle cx="200" cy="150" r="40" fill="#0066cc" opacity="0.3"/>
-                            <text x="200" y="155" text-anchor="middle" fill="#666" font-size="14">Imaging System</text>
+                            <rect width="400" height="300" fill="#1a1a1a"/>
+                            <!-- Tile grid -->
+                            <g opacity="0.6">
+                                <rect x="60" y="40" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                                <rect x="125" y="40" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                                <rect x="190" y="40" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                                <rect x="255" y="40" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                                <rect x="60" y="90" width="60" height="45" rx="2" fill="#252525" stroke="#333" stroke-width="1"/>
+                                <rect x="125" y="90" width="60" height="45" rx="2" fill="#282828" stroke="#333" stroke-width="1"/>
+                                <rect x="190" y="90" width="60" height="45" rx="2" fill="#252525" stroke="#333" stroke-width="1"/>
+                                <rect x="255" y="90" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                                <rect x="60" y="140" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                                <rect x="125" y="140" width="60" height="45" rx="2" fill="#252525" stroke="#333" stroke-width="1"/>
+                                <rect x="190" y="140" width="60" height="45" rx="2" fill="#282828" stroke="#333" stroke-width="1"/>
+                                <rect x="255" y="140" width="60" height="45" rx="2" fill="#222" stroke="#333" stroke-width="1"/>
+                            </g>
+                            <!-- Objective lens -->
+                            <circle cx="200" cy="220" r="25" fill="none" stroke="#667eea" stroke-width="2" opacity="0.6"/>
+                            <circle cx="200" cy="220" r="12" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.4"/>
+                            <circle cx="200" cy="220" r="4" fill="#667eea" opacity="0.5"/>
+                            <!-- Z-stack lines -->
+                            <line x1="340" y1="60" x2="340" y2="180" stroke="#444" stroke-width="1"/>
+                            <line x1="335" y1="60" x2="345" y2="60" stroke="#667eea" stroke-width="2"/>
+                            <line x1="335" y1="100" x2="345" y2="100" stroke="#667eea" stroke-width="2" opacity="0.7"/>
+                            <line x1="335" y1="140" x2="345" y2="140" stroke="#667eea" stroke-width="2" opacity="0.4"/>
+                            <line x1="335" y1="180" x2="345" y2="180" stroke="#667eea" stroke-width="2" opacity="0.2"/>
+                            <text x="340" y="200" text-anchor="middle" fill="#a0a0a0" font-size="9">Z-stack</text>
+                            <!-- Scan direction arrow -->
+                            <line x1="60" y1="200" x2="315" y2="200" stroke="#0066cc" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+                            <text x="60" y="270" fill="#a0a0a0" font-size="10">Multi-tile scanning with Z-stack acquisition</text>
                         </svg>
                     </div>
                 </div>
@@ -95,14 +120,37 @@
                 <div class="tech-visual">
                     <div class="placeholder-box">
                         <svg width="100%" height="300" viewBox="0 0 400 300">
-                            <rect width="400" height="300" fill="#f8f9fa"/>
-                            <rect x="50" y="50" width="80" height="80" fill="#00cc99" opacity="0.4" rx="5"/>
-                            <rect x="160" y="50" width="80" height="80" fill="#00cc99" opacity="0.6" rx="5"/>
-                            <rect x="270" y="50" width="80" height="80" fill="#00cc99" opacity="0.5" rx="5"/>
-                            <rect x="50" y="160" width="80" height="80" fill="#00cc99" opacity="0.7" rx="5"/>
-                            <rect x="160" y="160" width="80" height="80" fill="#00cc99" opacity="0.5" rx="5"/>
-                            <rect x="270" y="160" width="80" height="80" fill="#00cc99" opacity="0.6" rx="5"/>
-                            <text x="200" y="155" text-anchor="middle" fill="#666" font-size="14">AI Segmentation</text>
+                            <rect width="400" height="300" fill="#1a1a1a"/>
+                            <!-- Tissue background -->
+                            <rect x="30" y="20" width="340" height="260" rx="8" fill="#222"/>
+                            <!-- Segmented cells - cluster 1 (blue) -->
+                            <ellipse cx="120" cy="90" rx="22" ry="18" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="120" cy="88" r="4" fill="#667eea" opacity="0.5"/>
+                            <ellipse cx="155" cy="80" rx="18" ry="20" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="155" cy="78" r="4" fill="#667eea" opacity="0.5"/>
+                            <ellipse cx="90" cy="110" rx="20" ry="16" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="90" cy="108" r="4" fill="#667eea" opacity="0.5"/>
+                            <ellipse cx="140" cy="125" rx="16" ry="19" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="140" cy="123" r="4" fill="#667eea" opacity="0.5"/>
+                            <!-- Cluster boundary 1 -->
+                            <ellipse cx="125" cy="100" rx="65" ry="50" fill="none" stroke="#667eea" stroke-width="1" stroke-dasharray="5,4" opacity="0.3"/>
+                            <!-- Segmented cells - cluster 2 (green) -->
+                            <ellipse cx="260" cy="140" rx="20" ry="17" fill="none" stroke="#4A90D9" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="260" cy="138" r="4" fill="#4A90D9" opacity="0.5"/>
+                            <ellipse cx="290" cy="120" rx="18" ry="22" fill="none" stroke="#4A90D9" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="290" cy="118" r="4" fill="#4A90D9" opacity="0.5"/>
+                            <ellipse cx="310" cy="155" rx="22" ry="16" fill="none" stroke="#4A90D9" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="310" cy="153" r="4" fill="#4A90D9" opacity="0.5"/>
+                            <ellipse cx="270" cy="170" rx="17" ry="20" fill="none" stroke="#4A90D9" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="270" cy="168" r="4" fill="#4A90D9" opacity="0.5"/>
+                            <!-- Cluster boundary 2 -->
+                            <ellipse cx="285" cy="145" rx="55" ry="50" fill="none" stroke="#4A90D9" stroke-width="1" stroke-dasharray="5,4" opacity="0.3"/>
+                            <!-- Scattered cells (unclustered) -->
+                            <ellipse cx="200" cy="200" rx="15" ry="18" fill="none" stroke="#444" stroke-width="1" opacity="0.5"/>
+                            <circle cx="200" cy="198" r="3" fill="#444" opacity="0.4"/>
+                            <ellipse cx="80" cy="200" rx="18" ry="14" fill="none" stroke="#444" stroke-width="1" opacity="0.5"/>
+                            <circle cx="80" cy="198" r="3" fill="#444" opacity="0.4"/>
+                            <text x="200" y="275" text-anchor="middle" fill="#a0a0a0" font-size="10">AI-powered cell segmentation and clustering</text>
                         </svg>
                     </div>
                 </div>
@@ -132,11 +180,11 @@
                 <div class="tech-text">
                     <h2>Precision Laser Microdissection</h2>
                     <h3>Automated Coordinate-Guided Cutting</h3>
-                    <p>Our laser system delivers sub-micrometer precision with intelligent automation:</p>
+                    <p>Our laser system delivers micrometer-scale precision with intelligent automation:</p>
                     <ul class="tech-list">
                         <li><strong>Coordinate transformation:</strong> Automatic conversion from pixel annotations to stage coordinates</li>
                         <li><strong>Laser offset calibration:</strong> Alignment workflow ensures cutting accuracy</li>
-                        <li><strong>Variable power control:</strong> Adjustable laser power for different tissue types (perimeter: 20%, push: 10%)</li>
+                        <li><strong>Variable power control:</strong> Separate perimeter cutting and tissue release parameters, configurable per tissue type</li>
                         <li><strong>Leadscrew positioning:</strong> Optimal Z-axis positioning during initialization</li>
                         <li><strong>Path optimization:</strong> Efficient cutting patterns minimize tissue damage</li>
                     </ul>
@@ -147,7 +195,7 @@
                         </div>
                         <div class="spec-item">
                             <span class="spec-label">Precision:</span>
-                            <span class="spec-value">Sub-micrometer accuracy</span>
+                            <span class="spec-value">Micrometer-scale accuracy</span>
                         </div>
                         <div class="spec-item">
                             <span class="spec-label">Power Range:</span>
@@ -158,11 +206,23 @@
                 <div class="tech-visual">
                     <div class="placeholder-box">
                         <svg width="100%" height="300" viewBox="0 0 400 300">
-                            <rect width="400" height="300" fill="#f0f0f0"/>
-                            <path d="M 100,150 L 200,50 L 300,150 L 200,250 Z" fill="none" stroke="#ff6b6b" stroke-width="3" stroke-dasharray="5,5"/>
-                            <circle cx="200" cy="50" r="5" fill="#ff6b6b"/>
-                            <line x1="200" y1="0" x2="200" y2="50" stroke="#0066cc" stroke-width="2"/>
-                            <text x="200" y="280" text-anchor="middle" fill="#666" font-size="14">Laser Microdissection</text>
+                            <rect width="400" height="300" fill="#1a1a1a"/>
+                            <!-- Tissue section -->
+                            <rect x="80" y="80" width="240" height="160" rx="4" fill="#222" stroke="#333" stroke-width="1"/>
+                            <!-- Cutting path -->
+                            <path d="M 150,120 C 160,100 200,95 220,110 C 240,125 260,130 270,120 C 280,110 280,150 260,165 C 240,180 200,185 180,170 C 160,155 140,140 150,120 Z" fill="rgba(74,144,217,0.08)" stroke="#4A90D9" stroke-width="2" stroke-dasharray="6,3"/>
+                            <!-- Laser beam -->
+                            <line x1="200" y1="10" x2="200" y2="60" stroke="#4A90D9" stroke-width="3" opacity="0.8"/>
+                            <line x1="190" y1="60" x2="200" y2="80" stroke="#4A90D9" stroke-width="1.5" opacity="0.4"/>
+                            <line x1="210" y1="60" x2="200" y2="80" stroke="#4A90D9" stroke-width="1.5" opacity="0.4"/>
+                            <circle cx="200" cy="80" r="3" fill="#4A90D9" opacity="0.6"/>
+                            <!-- Crosshairs -->
+                            <line x1="190" y1="120" x2="210" y2="120" stroke="#0066cc" stroke-width="1" opacity="0.6"/>
+                            <line x1="200" y1="110" x2="200" y2="130" stroke="#0066cc" stroke-width="1" opacity="0.6"/>
+                            <!-- Coordinate labels -->
+                            <text x="85" y="250" fill="#444" font-size="9">X: 12,450 um</text>
+                            <text x="240" y="250" fill="#444" font-size="9">Y: 8,320 um</text>
+                            <text x="200" y="280" text-anchor="middle" fill="#a0a0a0" font-size="10">Coordinate-guided precision cutting</text>
                         </svg>
                     </div>
                 </div>
@@ -177,17 +237,46 @@
                 <div class="tech-visual">
                     <div class="placeholder-box">
                         <svg width="100%" height="300" viewBox="0 0 400 300">
-                            <rect width="400" height="300" fill="#f8f9fa"/>
-                            <rect x="50" y="100" width="100" height="100" fill="#764ba2" opacity="0.3" rx="10"/>
-                            <rect x="250" y="100" width="100" height="100" fill="#667eea" opacity="0.3" rx="10"/>
-                            <path d="M 150,150 Q 200,100 250,150" fill="none" stroke="#0066cc" stroke-width="4" marker-end="url(#arrowhead)"/>
-                            <defs>
-                                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-                                    <polygon points="0 0, 10 3, 0 6" fill="#0066cc"/>
-                                </marker>
-                            </defs>
-                            <text x="100" y="225" text-anchor="middle" fill="#666" font-size="12">Inlet</text>
-                            <text x="300" y="225" text-anchor="middle" fill="#666" font-size="12">Collection</text>
+                            <rect width="400" height="300" fill="#1a1a1a"/>
+                            <!-- Inlet pump -->
+                            <rect x="20" y="110" width="60" height="60" rx="8" fill="#222" stroke="#444" stroke-width="1.5"/>
+                            <circle cx="50" cy="140" r="15" fill="none" stroke="#4A90D9" stroke-width="2" opacity="0.6"/>
+                            <line x1="50" y1="125" x2="50" y2="140" stroke="#4A90D9" stroke-width="2" opacity="0.6"/>
+                            <text x="50" y="185" text-anchor="middle" fill="#a0a0a0" font-size="9">Inlet pump</text>
+                            <!-- Flow channel -->
+                            <rect x="100" y="125" width="200" height="30" rx="6" fill="#222" stroke="#333" stroke-width="1"/>
+                            <line x1="110" y1="140" x2="290" y2="140" stroke="#0066cc" stroke-width="1.5" stroke-dasharray="6,4" class="flow-path-animated"/>
+                            <!-- Tissue particles in flow -->
+                            <circle cx="150" cy="140" r="4" fill="#4A90D9" opacity="0.8"/>
+                            <circle cx="200" cy="140" r="4" fill="#4A90D9" opacity="0.6"/>
+                            <circle cx="245" cy="140" r="4" fill="#4A90D9" opacity="0.4"/>
+                            <!-- Flow cell label -->
+                            <text x="200" y="120" text-anchor="middle" fill="#444" font-size="9">Flow cell</text>
+                            <!-- Outlet to well plate -->
+                            <line x1="300" y1="140" x2="320" y2="140" stroke="#0066cc" stroke-width="1.5"/>
+                            <line x1="320" y1="140" x2="320" y2="195" stroke="#0066cc" stroke-width="1.5"/>
+                            <!-- Well plate -->
+                            <rect x="300" y="195" width="80" height="65" rx="4" fill="#222" stroke="#444" stroke-width="1.5"/>
+                            <g>
+                                <circle cx="316" cy="212" r="5" fill="#4A90D9" opacity="0.7"/>
+                                <circle cx="330" cy="212" r="5" fill="#4A90D9" opacity="0.5"/>
+                                <circle cx="344" cy="212" r="5" fill="#4A90D9" opacity="0.3"/>
+                                <circle cx="358" cy="212" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="372" cy="212" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="316" cy="228" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="330" cy="228" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="344" cy="228" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="358" cy="228" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="372" cy="228" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="316" cy="244" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="330" cy="244" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="344" cy="244" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="358" cy="244" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                                <circle cx="372" cy="244" r="5" fill="none" stroke="#333" stroke-width="1"/>
+                            </g>
+                            <text x="340" y="275" text-anchor="middle" fill="#a0a0a0" font-size="9">96-well plate</text>
+                            <!-- Labels -->
+                            <text x="200" y="280" text-anchor="middle" fill="#a0a0a0" font-size="10">Automated fluidic transport and collection</text>
                         </svg>
                     </div>
                 </div>
@@ -307,13 +396,12 @@
                     <h4>Platform</h4>
                     <ul>
                         <li><a href="platform.html">Annotation Viewer</a></li>
-                        <li><a href="https://github.com/nicolaidorka">GitHub</a></li>
+                        <li><a href="mailto:purensis.official@gmail.com">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Purensis. All rights reserved.</p>
-            </div>
+                </div>
         </div>
     </footer>
 
