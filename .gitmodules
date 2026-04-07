@@ -1,3 +1,5 @@
 [submodule "purepath"]
 	path = purepath
 	url = https://github.com/nicolaidorka/purepath_platform.git
+	ignore = all
+	update = none
