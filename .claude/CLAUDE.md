@@ -1,7 +1,9 @@
 # PurensisRX Website
 
 ## Project Overview
-Static marketing website for **Purensis** — a spatial biology service offering automated tissue imaging and laser microdissection. Customers send tissue samples and receive spatially-resolved images and molecular data.
+Static marketing site for **Purensis** — a spatial proteomics data generation company. Purensis is building an integrated platform to generate deep, unbiased spatial proteomic data at scale, intended as training data for AI drug discovery. Hardware, imaging, and LMD are internal infrastructure, not products.
+
+**Voice:** Dry, scientific, declarative. No service-company framing ("send samples", "your research"). No undelivered claims as facts ("we generate", "we ship") — use "we are building", "designed to". One CTA per page (plain "Contact"). No hype adjectives.
 
 **Live URL:** https://purensis.com
 **Contact:** purensis.official@gmail.com
