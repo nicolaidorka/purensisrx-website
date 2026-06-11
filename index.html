@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <title>Purensis</title>
     <meta name="description" content="Purensis is a spatial proteomics data generation company building an integrated platform to generate deep, unbiased spatial proteomic data at scale.">
-    <link rel="stylesheet" href="css/styles.css?v=7">
+
+    <!-- Social preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Purensis">
+    <meta property="og:description" content="A spatial proteomics data generation company.">
+    <meta property="og:url" content="https://purensis.com/">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css?v=8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -21,7 +27,6 @@
                 <a href="index.html" class="logo">Purensis</a>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="pages/technology.html">Platform</a></li>
                     <li><a href="pages/platform.html" class="btn btn-primary">PurePath</a></li>
                 </ul>
             </div>
@@ -32,6 +37,7 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
+                <span class="eyebrow">Spatial proteomics data</span>
                 <h1 class="hero-title">A spatial proteomics<br class="desktop-break">data generation company.</h1>
                 <p class="hero-subtitle">Purensis is building an integrated platform to generate deep, unbiased spatial proteomic data at scale.</p>
                 <div class="hero-buttons">
@@ -42,25 +48,34 @@
     </section>
 
     <!-- Why this category exists -->
-    <section class="proof-point">
+    <section class="proof-point reveal">
         <div class="container">
-            <h2 class="section-title">Drug discovery is data-limited.</h2>
+            <div class="section-title-block">
+                <span class="eyebrow">The problem</span>
+                <h2 class="section-title">Drug discovery is limited by data.</h2>
+            </div>
             <p class="proof-description">Most approved drugs target proteins, but proteomic data measured spatially across human tissue at scale does not currently exist. Public spatial datasets are dominated by transcriptomics, narrow marker panels, or small cohorts. Models for target discovery, response prediction, and tissue biology are constrained by the absence of this data.</p>
         </div>
     </section>
 
-    <!-- Integrated method -->
-    <section class="proof-point alt-section">
+    <!-- What we generate -->
+    <section class="proof-point alt-section reveal">
         <div class="container">
-            <h2 class="section-title">An integrated method.</h2>
-            <p class="proof-description">Purensis combines whole-slide imaging, AI-guided laser microdissection, and proteomic measurement in a single automated workflow. Each tissue region is captured with paired imaging, spatial coordinates, and a proteomic readout. The platform is being built to produce these measurements without panel preselection, at depths and throughput not feasible by manual methods.</p>
+            <div class="section-title-block">
+                <span class="eyebrow">The approach</span>
+                <h2 class="section-title">What we generate.</h2>
+            </div>
+            <p class="proof-description">Purensis generates spatial proteomic data from human tissue. Each region pairs precise spatial location with deep proteomic measurement across entire tissue sections. Measurements are produced without panel preselection, at depths and throughput not feasible by manual methods.</p>
         </div>
     </section>
 
     <!-- Three differentiators -->
-    <section class="proof-point">
+    <section class="proof-point reveal">
         <div class="container">
-            <h2 class="section-title">Designed to be scaled, unbiased, deep.</h2>
+            <div class="section-title-block">
+                <span class="eyebrow">By design</span>
+                <h2 class="section-title">Designed to be scaled, unbiased, deep.</h2>
+            </div>
             <div class="proof-grid proof-grid-3">
                 <div class="proof-card proof-card--detail">
                     <p class="proof-label">Scaled.</p>
@@ -68,33 +83,13 @@
                 </div>
                 <div class="proof-card proof-card--detail">
                     <p class="proof-label">Unbiased.</p>
-                    <p>Region-agnostic measurement; no preselected antibody panel.</p>
+                    <p>Region agnostic measurement. No preselected antibody panel.</p>
                 </div>
                 <div class="proof-card proof-card--detail">
                     <p class="proof-label">Deep.</p>
-                    <p>Proteome-scale measurement per region &mdash; thousands of proteins, not dozens.</p>
+                    <p>Proteome scale measurement per region. Thousands of proteins.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Team -->
-    <section class="team">
-        <div class="container">
-            <h2 class="section-title">Team</h2>
-            <p class="team-intro">Engineers and scientists building the spatial proteomics data layer.</p>
-            <div class="team-grid">
-                <div class="team-placeholder">
-                    <p class="team-role">Founder &amp; CEO</p>
-                </div>
-                <div class="team-placeholder">
-                    <p class="team-role">Engineering</p>
-                </div>
-                <div class="team-placeholder">
-                    <p class="team-role">Science</p>
-                </div>
-            </div>
-            <p class="team-cta-text">Interested in joining? <a href="mailto:purensis.official@gmail.com">Get in touch</a>.</p>
         </div>
     </section>
 
@@ -120,7 +115,6 @@
                 <div class="footer-section">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="pages/technology.html">Platform</a></li>
                         <li><a href="mailto:purensis.official@gmail.com">Contact</a></li>
                     </ul>
                 </div>
