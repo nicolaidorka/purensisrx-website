@@ -10,8 +10,8 @@ Static marketing site for **Purensis** — a spatial proteomics data generation 
 
 ## Deployment
 - **Host:** Cloudflare Workers (static assets)
-- **Cloudflare dashboard:** https://dash.cloudflare.com/b8b32bf90f8ac233ad90329dcfadef5d/home/overview
-- **GitHub repo:** https://github.com/nicolaidorka/purensisrx-website
+- **Cloudflare dashboard:** (account credentials in password manager)
+- **GitHub repo:** purensisrx-website (see remote in local git config)
 - **Auto-deploy:** every push to `main` triggers a Cloudflare rebuild (~30s)
 - **No build step** — Cloudflare serves files directly
 
