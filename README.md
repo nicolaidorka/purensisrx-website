@@ -1,6 +1,6 @@
 # PurensisRX Website
 
-A professional website for PurensisRX (formerly Unistream/TissueLabs) featuring the PurePath annotation platform.
+A static marketing website for Purensis featuring the PurePath annotation platform.
 
 ## 🌐 Website Structure
 
@@ -407,8 +407,7 @@ The website is fully responsive and works on:
 ## 📞 Support
 
 For questions or issues:
-- Email: contact@purensisrx.com
-- GitHub: https://github.com/nicolaidorka
+- Email: purensis.official@gmail.com
 
 ---
 
