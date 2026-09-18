@@ -1,11 +1,11 @@
-# PurensisRX Website
+# PaisleyBio Website
 
-A static marketing website for Purensis featuring the PurePath annotation platform.
+A static marketing website for PaisleyBio featuring the PurePath annotation platform.
 
 ## 🌐 Website Structure
 
 ```
-purensisRX-website/
+paisleybio-website/
 ├── index.html              # Landing page
 ├── pages/
 │   ├── technology.html     # Technology explanation
@@ -27,7 +27,7 @@ purensisRX-website/
 
 1. **Open the website locally:**
    ```bash
-   cd purensisRX-website
+   cd paisleybio-website
 
    # Option 1: Python HTTP server
    python3 -m http.server 8000
@@ -47,10 +47,10 @@ purensisRX-website/
 
 1. **Create a GitHub repository:**
    ```bash
-   cd purensisRX-website
+   cd paisleybio-website
    git init
    git add .
-   git commit -m "Initial PurensisRX website"
+   git commit -m "Initial PaisleyBio website"
    ```
 
 2. **Push to GitHub:**
@@ -92,7 +92,7 @@ purensisRX-website/
    - Click "Deploy site"
 
 3. **Or Deploy via Drag & Drop:**
-   - Drag the `purensisRX-website` folder to Netlify
+   - Drag the `paisleybio-website` folder to Netlify
    - Instant deployment!
 
 4. **Custom Domain:**
@@ -111,7 +111,7 @@ purensisRX-website/
 2. **Deploy:**
    ```bash
    npm install -g vercel
-   cd purensisRX-website
+   cd paisleybio-website
    vercel
    ```
 
@@ -141,12 +141,12 @@ purensisRX-website/
 
 1. **Create S3 bucket:**
    ```bash
-   aws s3 mb s3://purensisrx-website
+   aws s3 mb s3://paisleybio-website
    ```
 
 2. **Upload files:**
    ```bash
-   aws s3 sync . s3://purensisrx-website --acl public-read
+   aws s3 sync . s3://paisleybio-website --acl public-read
    ```
 
 3. **Enable static website hosting:**
@@ -197,7 +197,7 @@ fetch('https://your-api-endpoint.com/auth/login', {
 2. Update the navigation in all HTML files:
    ```html
    <a href="index.html" class="logo">
-       <img src="images/logo.png" alt="PurensisRX Logo">
+       <img src="images/logo.png" alt="PaisleyBio Logo">
    </a>
    ```
 
@@ -322,9 +322,9 @@ To make the contact form functional, you can use:
 Add to `<head>` section of each page:
 
 ```html
-<meta name="description" content="PurensisRX - Precision tissue isolation platform">
+<meta name="description" content="PaisleyBio - Precision tissue isolation platform">
 <meta name="keywords" content="tissue isolation, laser microdissection, AI segmentation">
-<meta property="og:title" content="PurensisRX">
+<meta property="og:title" content="PaisleyBio">
 <meta property="og:description" content="Automated tissue isolation platform">
 <meta property="og:image" content="images/og-image.png">
 ```
@@ -411,4 +411,4 @@ For questions or issues:
 
 ---
 
-Built for PurensisRX | © 2025
+Built for PaisleyBio | © 2025

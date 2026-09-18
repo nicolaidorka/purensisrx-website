@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Simple local server script for PurensisRX website
+# Simple local server script for PaisleyBio website
 # Usage: ./serve.sh
 
-echo "🚀 Starting PurensisRX Website Local Server..."
+echo "🚀 Starting PaisleyBio Website Local Server..."
 echo ""
 
 # Check if Python 3 is available

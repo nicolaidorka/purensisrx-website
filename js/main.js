@@ -1,4 +1,4 @@
-// Main JavaScript for PurensisRX Website
+// Main JavaScript for PaisleyBio Website
 
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for anchor links
