@@ -407,7 +407,7 @@ The website is fully responsive and works on:
 ## 📞 Support
 
 For questions or issues:
-- Email: purensis.official@gmail.com
+- Email: paisleybio.official@gmail.com
 
 ---
 

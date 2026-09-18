@@ -6,7 +6,7 @@ Static marketing site for **Purensis** — a spatial proteomics data generation 
 **Voice:** Dry, scientific, declarative. No service-company framing ("send samples", "your research"). No undelivered claims as facts ("we generate", "we ship") — use "we are building", "designed to". One CTA per page (plain "Contact"). No hype adjectives.
 
 **Live URL:** https://purensis.com
-**Contact:** purensis.official@gmail.com
+**Contact:** paisleybio.official@gmail.com
 
 ## Deployment
 - **Host:** Cloudflare Workers (static assets)
