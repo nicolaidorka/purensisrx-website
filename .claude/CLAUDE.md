@@ -5,7 +5,7 @@ Static marketing site for **PaisleyBio** — a spatial proteomics data generatio
 
 **Voice:** Dry, scientific, declarative. No service-company framing ("send samples", "your research"). No undelivered claims as facts ("we generate", "we ship") — use "we are building", "designed to". One CTA per page (plain "Contact"). No hype adjectives.
 
-**Live URL:** https://purensis.com
+**Live URL:** https://paisleybio.com (purensis.com 301-redirects here via a Cloudflare Redirect Rule on the purensis.com zone; keep that domain renewing)
 **Contact:** paisleybio.official@gmail.com
 
 ## Deployment
